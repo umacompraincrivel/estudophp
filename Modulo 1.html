@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="topo"> </div>
+    <div class="menu">
+        <a href="index.html"> Inicio  </a>
+        <a href="./Modulo 1.html">Modulo 1</a>
+		<a href="./Modulo 2.html">Modulo 2</a>
+    
+    </div>    
+    <div class="corpo">
+       <div class="paragrafo"> <strong>Paragrafos e fortação basica de texto</strong>
+            <div><p>Lorem, <strong>ipsum dolor sit amet coimilique</strong> saepe ut omnis eius veritatis!</p></div>
+            <div><p>Lorem, <i>ipsum dolor sit amet coimilique</i> saepe <small>ut omnis eius veritatis!</small></p></div>
+            <div><p>Lorem, <u>ipsum dolor sit amet coimilique </u>saepe <strike>ut omnis eius veritatis!</strike></p></div>
+            <div><p><sub>2</sub><sup>2 </sup>Lorem, ipsum dolor sit ametcoimilique saepe ut omnis eius veritatis!</p></div>
+        </div>
+        <div class="tabela"> 
+
+            <table width="500" border="1">
+                <tr> <td align="center" colspan="3" bgcolor="silver" > <strong>Tabela e formatação de tabela</strong></td>
+                   </tr>
+
+                <tr bgcolor="silver">
+                    <td>maça</td>
+                    <td>uva</td>
+                    <td>melancia</td>
+                </tr>
+                <tr>
+                    <td>maça</td>
+                    <td>uva</td>
+                    <td>melancia</td>
+                </tr>
+                <tr bgcolor="silver">
+                    <td colspan="2"  align="right">maça</td>
+                    <td align="center">uva</td>                    
+                </tr>
+            </table>
+        </div>
+
+        <div class="imagem"> <strong>Imagem e links</strong> <br>
+            <a href="https://google.com/google.jpg"><img src="https://google.com/google.jpg" ></a>
+            <a href="https://google.com/google.jpg"><img src="https://google.com/google.jpg" ></a>
+            <a href="https://google.com/google.jpg"><img src="https://google.com/google.jpg" ></a>
+            <a href="https://google.com/google.jpg"><img src="https://google.com/google.jpg" ></a>
+        </div>
+
+        <div class="listaul"> <u>Lista não Ordenadas:</u> <br><br> Ingredientes de bolo: <br>
+
+            <ul> <!--Se eu adicionar a tag style="list-style: square ou quaquer outro aqui será aplicado em todos"-->
+                <li>Trigo</li>
+                <li style="list-style-type: square">Água</li>
+                <li style="list-style-type: none">Sal</li>
+                <li style="list-style-type: circle;">Fermento</li>
+                <li style="list-style-type: armenian;">Corante</li>
+            </ul>
+        </div>
+
+            <div class="listaol"> Lista Ordenada
+            <ol>
+                <li>Jogar a massa</li>
+                <li type="A">Mexer</li>
+                <li type="I">Esperar</li>
+                <li>Comer</li>
+            </ol>
+        </div>
+
+        <div class="formulario"> Formulario:
+
+            <form method="post"></form> <!--Method: GET é quando o link Muda, POST é quando o link não muda, muito usando em bancos e loguin. Quando especificamos uma (action="") as informações são enviadas para onde mandarmos, quando não especificamos manda para o proprio arquivo pagina-->
+                Usuario: <br>                
+                <input type="text" name="usuario"></input><br> <!--Se adicionar dentro da tag ( input type="text" name="usuario") a função value="geferson" por exemplo, esse nmome aparecerá na caixa de usuario,vale tabem para senha-->
+                Senha: <br>
+                <input type="password" name="senha"></input><br><br>
+                <textarea name="campo"> </textarea><br><br> <!--area para a pessoas escrever o que quiser-->
+                <select name="opcoes">
+                    <option value="1"> Campo 1</option><!--Value é o que vai ser eviado quando a pessoas selecionar um campo-->
+                    <option value="2"> Campo 2</option>
+                    <option value="3"> Campo 3</option>
+                    <option value="4"> Campo 4</option>
+                </select>      <br>       
+
+                <input type="radio" name="radio"value="1"/>Opção 1<br> <!--radio, para o usuario marcar uma opção-->
+                <input type="radio" name="radio"value="2"/>Opção 2<br> 
+                <input type="radio" name="radio"value="3"/>Opção 3<br> 
+                <input type="radio" name="radio"value="4"/>opção 4<br>  <br>
+
+                <input type="submit" value="Enviar"><br>
+        </div>
+
+       <div class="iframe">  <br> iframe: Um site dentro de outro site
+        <iframe frameborder="0" src="https://umacompraincrivel.github.io/site"></iframe></div> 
+
+
+
+
+
+       
+          
+ 
+
+
+
+    </div>
+    
+    <footer> Roda pé</footer>
+    
+
+
+
+</body>
+</html>
