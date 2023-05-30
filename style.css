@@ -170,16 +170,20 @@ border: 1px solid red;
 .seletorhover:hover strong{
     background-color: #16c7df;
     }
- .exerciciotopo {
-width: 100px;
-height: 200px;
-color: white;
-background-color: #3b5998;
-}
 
-.exerciciomenu {
-width: 100%;
-height: 200px;
-color: black;
-background-color: red;
+.modulo1exercicio {
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: #3b5998;
 }
+.modulo1exerciciomenu {
+    margin-top: 0;
+    width: 100%;
+    height: 100px;
+    color: black;
+    background-color: red;
+    
+    }
+
+  
