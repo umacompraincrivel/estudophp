@@ -10,27 +10,48 @@ body {
     height: 100px;
     background-color: #3b5998;
     color: white;
+  
 }
+/* Inicio do menu e submenu dinamico com html e css*/
 .menu {
     display: flex;
     align-items: center;
     padding: 10px;
     background-color: #333;
-    color: #fff;
+    color: #fff;    
+    top: 100px;    
   }
-  
-  .menu a {
+  .menu li{
+display: inline-block;  /*colocar o testo do li um ao lado do outro*/ 
+}  
+  .menu li a{
     color: #fff;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px;   
   }
   
-  .menu a:hover {
+  .menu li a:hover{
     background-color: #fff;
     color: #333;
-   
     }
+ 
+.menu ul{
+    list-style: none;
+}    
+
+.submenu {
+position: absolute;
+display: none;
+
+}
+
+.menu li:hover .submenu{
+    display: block;
+
+}
+
     
+/* FInal do menu e submenu dinamico com html e css*/
 
 .corpo {
     width: 100%;
@@ -42,7 +63,9 @@ footer { /* Foi substituido a class do rodapé por a tag footer pois a mesmo é 
 position: fixed;
 bottom: 0;
 width: 100%;
+height: 50px;
 background-color: black;
+color: #fff;
 }
 
 p {
@@ -226,4 +249,28 @@ padding: 10px;
 
 
 }
-  
+  .exercicioposition { 
+    border: 1px red solid;
+    padding: 10px;
+    width: 200px;
+    height: 250px;  
+    float: left;
+background-color: aliceblue;
+}
+
+.positionteste {
+    position: relative;
+    left: 100px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.displaynoneeoutros{
+    margin-left: 10px;   
+    float: left;
+    border: red 1px solid;
+    background-color: aliceblue;
+    width: 400px;
+    height: 250px;
+}
