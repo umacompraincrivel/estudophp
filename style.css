@@ -14,39 +14,45 @@ body {
 }
 /* Inicio do menu e submenu dinamico com html e css*/
 .menu {
-    display: flex;
-    align-items: center;
-    padding: 10px;
+    margin: 0;
+   
+    
+    padding: 0px;
     background-color: #333;
-    color: #fff;    
-    top: 100px;    
+    
+     
   }
-  .menu li{
-display: inline-block;  /*colocar o testo do li um ao lado do outro*/ 
-}  
-  .menu li a{
+.menu a{
     color: #fff;
     text-decoration: none;
     padding: 10px;   
   }
   
-  .menu li a:hover{
+  .menu a:hover{
     background-color: #fff;
     color: #333;
     }
- 
-.menu ul{
-    list-style: none;
-}    
 
+  .menu li{
+list-style: none;
+display: inline-block;  /*colocar o testo do li um ao lado do outro*/ 
+padding: 10px;
+}  
 .submenu {
 position: absolute;
 display: none;
+min-width: 50px;
+
 
 }
 
 .menu li:hover .submenu{
     display: block;
+
+}
+.submenu .menu li {
+    display: block;
+
 
 }
 
@@ -230,7 +236,7 @@ border: 1px solid red;
 .menuexercicios {
     width: 100%;
     padding: 10px;
-    background-color: #333;
+    background-color: #3b5998;
     display: flex;
    
     
