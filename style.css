@@ -286,3 +286,53 @@ background-color: aliceblue;
     width: 400px;
     height: 250px;
 }
+/* Inicio pagina de anotações modulo 1*/
+/* Inicio Formatação de Texto */
+
+.lementoflutuante{
+margin: auto;
+margin-top: 20px;
+}
+.lementoflutuante .texto{  
+    width: auto;
+    height: auto; 
+    color: red; /*Muda a cor do Texto*/
+    font-size: 20px; /*Muda o tamanho do texto*/
+    font-family: Arial, Helvetica, sans-serif; /*Muda a forma da fonte*/
+    text-align: center; /*Alinha o texto no centro ou onde preferir, esquerda, direita*/
+    font-weight: bolder; /*negrito e afinar fonte adicionando valor em numero ou o stylo bolder*/
+    text-decoration: underline; /*texto sublinhado*/
+   /* text-transform: uppercase; Texto em caixa alta ou baixa de acordo com o que for selecionado*/
+   white-space: nowrap; /* Faz com que a frase ocupe o tamanho total sem quebrar linha*/
+}
+/* Final Formatação de Texto */
+/* inicio Criação do box*/
+.lementoflutuante .box1{
+    background-color: antiquewhite;
+    width: 400px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+/* Final Criação do box*/
+
+.lementoflutuante .box1 p{
+    margin-top: 10px;
+    white-space: nowrap;
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 20px;   
+}
+
+/*.flutuante {
+  position: absolute; O elemento fica parado na pagina e "some" ao mover a barra de rolagem da pagina
+  position: fixed;  O elemento fica fixado na "Tela", idepende da movimentação da barra de rolagem
+  OS comandos a baixo são utilizados para determinar o local que ficará o elemento flutuante
+  top: 200px;
+  left: 200px;
+  bottom: 200px;
+  height: 200px; 
+}*/
