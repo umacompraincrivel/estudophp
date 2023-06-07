@@ -300,3 +300,43 @@ margin: auto;
 
 /*Inicio do projeto da primeira aula*/
 
+body {
+margin: 0;
+padding: 0;
+}
+.p1topo {
+width: 100%;
+height: 50px;
+background-color: #2d2d2f;
+}
+.p1topointerior {
+width: 1000px;
+height: 50px;
+color: white;
+margin: auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.p1logo {
+font-size: 24px;
+float: left;
+line-height: 50px;   
+}
+.p1siteprincipal img{
+width: 50px;
+float: left;
+
+justify-content: center;
+}
+.p1menu ul,
+.p1menu li{
+float: right;
+padding-left: 10px;
+padding-right: 10px;
+list-style: none;
+}
+.p1menu a{
+color: #fff;
+text-decoration: none;
+}

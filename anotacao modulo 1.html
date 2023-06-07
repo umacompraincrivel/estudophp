@@ -46,14 +46,24 @@
 			Obs:  ao criar um menu, para centralizar: "logo e menu" perfeitamente no centro da pagina:
 			1- Cria uma "div class" principal  e coloca o widht em 100%.
 			2- cria uma "div class interior" no interior da principal para que ela possa ser ajustada no css.
-			3- Na "div class interior" adiciona o stilo: 
-			margin: auto; - para a margem ficar igual dos dois lados.
-			Na logo adiciona:
-			float: left; - para ela ficar "flutuando" a esquerda.
+			3- Na "div class interior" adiciona as seguintes prorpiedades: 
+
+			3-1 display: flex;  - Par que os elementos possam ser em linha ou coluna de forma flexivel.
+  			3-2 justify-content: space-between; - distribui o espaço disponível igualmente entre os itens.
+  			3-3 align-items: center; - É utilizada em um container flex para alinhar os itens verticalmente no centro do container.
+			3-4 margin: auto; - para as margens da div interior ficarem iguais dos dois lados em relação a div superior.
+
+			<strong>Na logo adiciona:</strong>
+
+			1 float: left; - para ela ficar "flutuando" a esquerda.
 			Em seguida adiciona um tamanho nela com o stilo: 
-			font-size: 24px; - Aumenta o tamanho da Fonte
+			2 font-size: 24px; - Aumenta o tamanho da Fonte.
+
+			<strong>listas menu</strong>
+
 			Cria uma nova "div class" para adicionar o Menu utilizado o stilo "UL": 
 			Ex: div class="menu">
+
 			ul>
 			li>Home/li>
 			li>Contato/li>
@@ -75,9 +85,13 @@
 			padding-left:10px; Margem esquerda 10px.
 			padding-right:10px; Margem direita 10px.
 			line-height: 50px; para o texto ficar alinhado no meio da Div de 50px.
+
 			
 			OBS: Para que as frases fiquem completas sem quebra de linha desnecessari utilise o stilo:
 			 white-space: nowrap;
+
+			 OBS: Ao criar uma div para adicionar imagem no site, a mesma "só poderá" receber alteração CSS
+			 Se apos o nome da div adiginar as letras img: EX: .logo img{  }
 			
 			Formatação de Texto
 			
