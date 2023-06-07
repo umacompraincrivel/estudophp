@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="./style.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet" >
 </head>
 <body>
     <div class="topo"> Estudo Frontend PHP Geferson	</div>
@@ -48,7 +48,7 @@
 			2- cria uma "div class interior" no interior da principal para que ela possa ser ajustada no css.
 			3- Na "div class interior" adiciona as seguintes prorpiedades: 
 
-			3-1 display: flex;  - Par que os elementos possam ser em linha ou coluna de forma flexivel.
+			3-1 display: flex;  - Para que os elementos possam ser organizados em linha ou coluna de forma flexivel.
   			3-2 justify-content: space-between; - distribui o espaço disponível igualmente entre os itens.
   			3-3 align-items: center; - É utilizada em um container flex para alinhar os itens verticalmente no centro do container.
 			3-4 margin: auto; - para as margens da div interior ficarem iguais dos dois lados em relação a div superior.
@@ -85,14 +85,44 @@
 			padding-left:10px; Margem esquerda 10px.
 			padding-right:10px; Margem direita 10px.
 			line-height: 50px; para o texto ficar alinhado no meio da Div de 50px.
+			white-space: nowrap;
 
 			
-			OBS: Para que as frases fiquem completas sem quebra de linha desnecessari utilise o stilo:
-			 white-space: nowrap;
+			<strong>OBS: Para que as frases fiquem completas sem quebra de linha desnecessari utilise o stilo:
+			 white-space: nowrap;</strong>
 
-			 OBS: Ao criar uma div para adicionar imagem no site, a mesma "só poderá" receber alteração CSS
-			 Se apos o nome da div adiginar as letras img: EX: .logo img{  }
-			
+			 <strong>OBS: Ao criar uma div para adicionar imagem no site, a mesma "só poderá" receber alteração CSS
+			 Se apos o nome da div adiginar as letras img: EX: .logo img{  }</strong>
+
+			<strong>Para adicionar link nos novos menus:</strong> 
+
+			 1- É necessario criar um novo stylo, semelhante ao da tag menu, porem é necessario adiconar o "a" para se referir ao link.
+			 2-	Para remover o sublinhado utilise a propriedade:
+			 2.1 - text-decoration: none; e em seguida;
+			 2.2 color: #fff; Para definir a cor do texto de sua preferencia.
+
+
+			 <h1>Criação de banner Comum:</h1>
+
+			 OBS: Geralmente segue o passo a passo da criação do menu, com uma div principal, e uma div interior para ajustar o texto e imagem.
+			 Apos isso, imagina que o nome da propriedade seja baner, e ela esteja em: 1 - div class="banerprincipal" 2 - div class="banerinterior" 
+			 3 - div class="baner" na div baner: 
+
+			 .baner {    
+				display: flex; - Para que os elementos possam ser organizados em linha ou coluna de forma flexivel.
+				justify-content: center; - é usada em um container flex para alinhar os itens ao longo do eixo principal horizontal e centralizá-los dentro do container.
+				align-items: center;  - É utilizada em um container flex para alinhar os itens verticalmente no centro do container.  
+				color: #2d2d2f; - Para mudar a cor da fonte do botão.
+				width: 150px; - Definir a largura do botão 
+				height: 30px; - Definir a altura do botão
+				background-color: #fcbf2d; - Definir a cor do botão
+				margin-top: 100px; - Esta foi usada em um exeplo especifico para definir o local onde esse botão ficaria,
+				Mas pode ser alterado conforme o projeto.
+			 }
+
+
+			<strong>Outras formatações </strong>
+
 			Formatação de Texto
 			
 			
