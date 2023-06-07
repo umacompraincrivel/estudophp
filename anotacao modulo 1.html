@@ -21,6 +21,7 @@
 				<li><a href="./Modulo 1.html">Modulo 1</a></li>
 					<li><a href="./modulo 1 exercicio.html">M1 Exercicio 1</a></li>
 					<li><a href="./anotacao modulo 1.html">M1 Anotações</a></li>
+					<li><a href="./m1projeto.html">M1 Projeto</a></li>
 				</ul>
 				
 				</div>
@@ -39,43 +40,75 @@
 
     <div class="corpo">	
 
-        <div class="lementoflutuante">
-            <div class="texto"> Formatação de texto, Box model, Elemento Flutuante</div>
-            <div class="box1"> <p>Formatação de Texto</p>  <br> <br> <br>
-               1- color: red; /*Muda a cor do Texto*/ <br>
-               2- font-size: 20px; /*Muda o tamanho do texto*/ <br>
-               3- font-family: Arial, Helvetica, sans-serif; /*Muda a forma da fonte*/ <br>
-               4- text-align: center; /*Alinha o texto no centro ou onde preferir, esquerda, direita*/ <br>
-               5- font-weight: bolder; /*negrito e afinar fonte adicionando valor em numero ou o stylo bolder*/ <br>
-               6- text-decoration: underline; /*texto sublinhado*/ <br>
-               7- /* text-transform: uppercase; Texto em caixa alta ou baixa de acordo com o que for selecionado*/ <br>
-			   8- white-space: nowrap; /* Faz com que a frase ocupe o tamanho total sem quebrar linha*/
-            </div> 
-
-			<div class="box1 flutuante"> <p>Div flutuante</p> <br><br>
+		<div class="anotacoesdomodulo1">
+			<pre> <h1>Anotações do Modulo 1</h1>
+			OBS: utilize esse comando no HTML para criar um link com o codigo CSS: link href="./style.css" rel="stylesheet"> 
+			Obs:  ao criar um menu, para centralizar: "logo e menu" perfeitamente no centro da pagina:
+			1- Cria uma "div class" principal  e coloca o widht em 100%.
+			2- cria uma "div class interior" no interior da principal para que ela possa ser ajustada no css.
+			3- Na "div class interior" adiciona o stilo: 
+			margin: auto; - para a margem ficar igual dos dois lados.
+			Na logo adiciona:
+			float: left; - para ela ficar "flutuando" a esquerda.
+			Em seguida adiciona um tamanho nela com o stilo: 
+			font-size: 24px; - Aumenta o tamanho da Fonte
+			Cria uma nova "div class" para adicionar o Menu utilizado o stilo "UL": 
+			Ex: div class="menu">
+			ul>
+			li>Home/li>
+			li>Contato/li>
+			/ul>
 			
-				position: absolute; /*O elemento fica parado na pagina e "some" ao mover a barra de rolagem da pagina*/<br>
-				position: fixed; /* O elemento fica fixado na "Tela", idepende da movimentação da barra de rolagem*/<br>
-			  /* OS comandos a baixo são utilizados para determinar o local que ficará o elemento flutuante*/<br>
-				top: 200px;<br>
-				left: 200px;<br>
-				bottom: 200px;<br>
-				height: 200px;<br>	
-			</div>
+			Utilize o stilo: 
+			Imagina que a "tag" principal é "menu" e "ul" esta dentro de menu:
+			.menu ul {
+			margin: 0;
+			padding:0; Ambos a cima para retirars as margens,
+			list-style: none; - Para remove a boliha das listas 
+			***Feito isso pode repetir para cada "li" ou adiciona uma virgula tipo:
+			.menu ul,
+			.menu li { 
+			}
+			
+			Em siguida use o stilo:
+			float: left; - para os menus ficarem lado a lado.
+			padding-left:10px; Margem esquerda 10px.
+			padding-right:10px; Margem direita 10px.
+			line-height: 50px; para o texto ficar alinhado no meio da Div de 50px.
+			
+			OBS: Para que as frases fiquem completas sem quebra de linha desnecessari utilise o stilo:
+			 white-space: nowrap;
+			
+			Formatação de Texto
+			
+			
+			1- color: red; /*Muda a cor do Texto*/
+			2- font-size: 20px; /*Muda o tamanho do texto*/
+			3- font-family: Arial, Helvetica, sans-serif; /*Muda a forma da fonte*/
+			4- text-align: center; /*Alinha o texto no centro ou onde preferir, esquerda, direita*/
+			5- font-weight: bolder; /*negrito e afinar fonte adicionando valor em numero ou o stylo bolder*/
+			6- text-decoration: underline; /*texto sublinhado*/
+			7- /* text-transform: uppercase; Texto em caixa alta ou baixa de acordo com o que for selecionado*/
+			8- white-space: nowrap; /* Faz com que a frase ocupe o tamanho total sem quebrar linha*/
+			
+			Div flutuante
+			
+			position: absolute; /*O elemento fica parado na pagina e "some" ao mover a barra de rolagem da pagina*/
+			position: fixed; /* O elemento fica fixado na "Tela", idepende da movimentação da barra de rolagem*/
+			/* OS comandos a baixo são utilizados para determinar o local que ficará o elemento flutuante*/
+			top: 200px;
+			left: 200px;
+			bottom: 200px;
+			height: 200px;
+			
+		
+		
+		
+		
+		
+		</pre>
+		</div>
 
-			<div class="box1"></div> 
-			<div class="box1"></div> 
-			<div class="box1"></div>  
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        </div>
 
 	</div>
     <footer> Roda pé</footer>   
