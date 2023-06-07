@@ -382,5 +382,42 @@ color: #fff;
     float: right;
 width: auto;
 height: 230px;
+}
+.p1corpo {
+width: 100%;
+height: auto;
+}
+.p1corpointerior{
+    margin: auto;
+    width: 1000px;
+}
+.p1outrosprodutos{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+width: 1000px;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #2d2d2f;
+margin: auto;
+}
+.p1corpoprodutos img{
+    width: 212px;
+    height: 312px;
+    float: left;
+    margin: auto;
+    padding: 10px;
+}
+.p1rodape {
+font-size: 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;   
+width: 100%;
+height: 30px;
+background-color: black;
+color: #fff;
 
 }
+
