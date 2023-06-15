@@ -288,9 +288,14 @@ background-color: aliceblue;
 }
 /* Inicio pagina de anotações modulo 1*/
 /* Inicio Formatação de Texto */
-.anotacoesdomodulo1 {
+.anotacoes{
 width: 1000px;
 margin: auto;
+font-family: Liberation Mono;
+}
+.anotacoes2negrito {
+    font-weight: normal;
+    font-size: 12px;
 }
 
 
