@@ -1,16 +1,12 @@
 body {
     margin: 0;
- 
-   
-
 }
-.topo {
+.topo {  
     text-align: center;
-    width: 100%px;
+    width: 100%;
     height: 100px;
     background-color: #3b5998;
-    color: white;
-  
+    color: white;  
 }
 /* Inicio do menu e submenu dinamico com html e css*/
 .menu {
