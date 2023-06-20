@@ -29,7 +29,7 @@
 		<li><a href="./Modulo 2.html">HTML5 e CSS3</a> 
 			<div class="submenu">
 				<ul class="menu">
-				<li><a href="">Modulo 2</a></li>
+				<li><a href="./Modulo 2.html">Modulo 2</a></li>
 					<li><a href="">M2 Exercicio 1</a></li>
 					<li><a href="./anotacao modulo 2.html">M2 Anotações</a></li>
 					
@@ -97,17 +97,29 @@
 					<.source src="caminho/do/arquivo-de-audio.wav" type="audio/wav"> 
 				  <./audio> 
 
-
+			<u><h2> Media Query - Designer responsivo</h2></u>	
 			
+			<p>Esse codigo gera uma ação ao perceber a auteração de tamanho de tela:</p>
 
+			<strong><p>1 Nesse exemplo temo as div class Modulo 2 com largura de 600px e altura de 300px na cor Red.</p> <br></strong>
 
-	
-
-
-
-
-
+			.modulo2 {    <br>
+				width: 600px; <br>
+				height: 300px;<br>
+				background-color: red; <br><br>
 				
+				} <br><br>
+
+				<strong><p>2 Nessa parte a regra @media, diz que quando a largura de tela máxima for 500px a cor da div ".modulo2" será green</p></strong>
+				
+				@media only screen and (max-width:500px) { <br><br>
+				
+				.modulo2 {<br>
+				background-color: green;<br>
+				} <br>
+				} 	<br>
+
+				<strong> OBS:  Nesta regra pode ser aplicada da forma que quiser, como mudar cor, ajusta tamanho etc.</strong>
 
 
             </form>

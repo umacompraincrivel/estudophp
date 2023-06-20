@@ -86,24 +86,15 @@ background-color: black;
 color: #fff;
 }
 
-p {
-float: left;
-width: 100px;
-
-}
-
-
-
-
 .imagem img {
        width: 100px;
     background-color: azure; 
 }
 .paragrafo {
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 150px;
     float: left;
-    text-align: center;
+    
     background-color: aliceblue;
     }
 table {
@@ -425,7 +416,61 @@ bottom: 0;
 }
 /*Final do projeto*/
 /*Inicio modulo 2*/
+/*Inicio responsividade de cor em objeto*/
+.modulo2 {
+width: 600px;
+height: 300px;
+background-color: red;
+
+}
+
+@media only screen and (max-width:500px) {
+
+.modulo2 {
+background-color: green;
+}
+} 
+/*Final responsividade de cor em objeto*/
+/*Inicio responsividade de site 1*/
+.modulo2corpo {
+    width: 1000px;
+    margin:auto;
+    margin-bottom: 50px;
+}
+.modulo2corpo p {
+text-align: center;
+}
+.modulo2r1{
+width: 100%;
+height: 500px;
+background-color: #227bbf;
+margin-top: 10px;
+}
+
+.modulo2r1 .logomodulo2r1 {
+width: 50%;
+height: 100px;
+float: left;
+background-color: silver;
+}
+.modulo2r1 .menumodulo2r1 {
+width: 50%;
+height: 100px;
+background-color: rgb(75, 72, 72);
+float: right;
+}
+.modulo2r1 .corpomodulo2r1 {
+width: 100%;
+height: 500px;
+background-color: #74747e;
+}
+.modulo2r1 .rodapemodulo2r1 {
+width: 100%;
+height: 40px;
 
 
+background-color: silver;
+
+}
 
 /*Final Modulo 2*/
