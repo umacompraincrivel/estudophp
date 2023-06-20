@@ -41,11 +41,14 @@
 
     <div class="corpo">	
 
-		<div class="anotacoes">
+		
+		<div class="pre-container">
+			
 			<h1>Anotações do Modulo 2</h1>
-                OBS: Remova o ponto antes de cada tag para que o codigo funcione
-                <h2>Input:</h2> 
-				<h5 class="anotacoes2negrito">O comando "input" necessita de formulario para funcionar: <br>
+              OBS: Remova o ponto antes de cada tag para que o codigo funcione
+
+                <u><h2>Input:</h2></u> <br>
+				O comando "input" necessita de formulario para funcionar: <br>
                 Que pode ser <strong>form method="POST"> /form></strong> ou <strong>form method="GET"> /form></strong> <br><br>
 
                 <strong>1 - method="GET": </strong>Esse método envia os dados do formulário como parte da URL da requisição. Os dados são anexados na URL como parâmetros de consulta (query parameters). 
@@ -63,26 +66,60 @@
 
                 <input type="email" name="email"/> <strong> <.input type="email" name="email"/></strong> - Para criar barra de "email"<br> <br>
 
-                <input type="submit" value="Enviar"/> <strong> <.input type="submit" value="Enviar"> </strong> - Para enviar os Dados - Além de ser necessario criar o Form, tambem se faz necessario a criação do Botão para enviar as informações. <br>
+                <input type="submit" value="Enviar"/> <strong> <.input type="submit" value="Enviar"> </strong> <br><br> - Para enviar os Dados - Além de ser necessario criar o Form, tambem se faz necessario a criação do Botão para enviar as informações. <br>
+					<u><h2>Tipos de input:</h2></u>
+			<input type="color"/> : type Color <BR></BR>
+			<input type="datetime-local"/> : type Data <br><br>
+
+			<u><h2> Vídeo:</h2></u>		
+
+			<video width="320" height="240" controls autoplay muted>
+			<source src="./video/videoinformatica.mp4" type="video/mp4"/> </video> <br>
+
+			
+			<i><.video width="320" height="240" controls autoplay muted> <br>
+			<.source src="./video/videoinformatica.mp4" type="video/mp4"/> <./video> <br> <br></i>
+
+			<strong>1 <.video width="320" height="240" :</strong> Esse comando informa o tamanho que o video terá no site. <br>
+			<strong>2 Controls</strong>:  Esse Mostrará os controles do vídeo. <br>
+			<strong>3 autoplay muted</strong> : Esse dois comando é necessario para o vídeo iniciar automaticamente <br> 
+			<strong>4</strong> O <strong> Autoplay</strong> é o comando para o video iniciar sozinho, porem é necessario que o video esteja mutado <strong>muted</strong> para rodar no Chrome por exemplo.
+			
+			<u><h2>Audio</h2></u>
+			<audio src="./audio/Audiosite.mp3" controls></audio><br><br>
+
+			<strong>1 Esse caminha insere um audio normal no formato original. </strong><br>
+			<.audio src="caminho/do/arquivo-de-audio.mp3" controls><./audio> <br><br>
+			<strong>2 Esse comando serve para adicionar diferentes tipos de formato de audio para compatibilidade com o navegador: </strong><br>	
+				<.audio controls>
+					<.source src="caminho/do/arquivo-de-audio.mp3" type="audio/mpeg">
+					<.source src="caminho/do/arquivo-de-audio.ogg" type="audio/ogg">
+					<.source src="caminho/do/arquivo-de-audio.wav" type="audio/wav"> 
+				  <./audio> 
 
 
-            
+			
+
+
+	
 
 
 
-				</h5>
+
+
+				
 
 
             </form>
+ 
 
 
 
 
 
-
-            
-		</div>
-
+		</Pre> 
+	</div>
+		
 
 	</div>
     <footer> Roda pé</footer>   

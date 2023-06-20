@@ -64,6 +64,7 @@ min-width: 50px;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
+    margin-bottom: 80px;
 }
 
 .corpo .imgphp {   
@@ -288,18 +289,12 @@ background-color: aliceblue;
 }
 /* Inicio pagina de anotações modulo 1*/
 /* Inicio Formatação de Texto */
-.anotacoes{
-width: 1000px;
-margin: auto;
-font-family: Liberation Mono;
-}
-.anotacoes2negrito {
-    font-weight: normal;
-    font-size: 12px;
-}
-strong{
-font-size: 14px;
-}
+.pre-container {
+    max-width: 1000px;
+   
+    margin: auto;
+  }
+
 
 
 
@@ -428,4 +423,9 @@ color: #fff;
 position: fixed;
 bottom: 0;
 }
+/*Final do projeto*/
+/*Inicio modulo 2*/
 
+
+
+/*Final Modulo 2*/
